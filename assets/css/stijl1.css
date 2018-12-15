@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
     background-color: lavender;
 }
@@ -26,7 +28,6 @@ a:link {
     text-decoration: underline;
     font-family: "Times New Roman", serif;
     font-size: 19px;
-
 }
 
 a:active {
@@ -37,9 +38,17 @@ a:active {
     font-weight: bold;
 }
 
+p,
+li{
+    font-family: 'Montserrat', sans-serif;
+}
+
 p {
     color: darkslategray;
-    font-family: "Times New Roman", serif;
+    font-size: 19px;
+}
+
+ul{
     font-size: 19px;
 }
 
@@ -47,6 +56,10 @@ p {
     float: left;
     width: 50%;
     padding: 5px;
+}
+
+.column img{
+    width: 100%;
 }
 
 .row::after {
