@@ -1,0 +1,62 @@
+body {
+    background-color: lavender;
+}
+
+h1 {
+    background : rebeccapurple ;
+    color : white ;
+    text-align: center;
+    font-family : Georgia ;
+    font-size : 24pt ;
+}
+
+h2 {
+    font-family : "Times New Roman" ;
+    font-size : 19pt ;
+    color : darkslategray ;
+}
+
+a:link {
+    color : darkslategray ;
+    text-decoration : underline ;
+    font-family : "Times New Roman" ;
+    font-size : 19pt ;
+
+}
+
+a:active {
+    color: darkslategray ;
+    text-decoration : underline ;
+    font-family : Verdana ;
+    font-size : 15pt ;
+    font-weight: bold ;
+}
+
+
+h3 {
+    color: black;
+    font-family: Georgia;
+    font-weight: normal;
+}
+
+p{
+    color : darkslategray ;
+    text-decoration : underline ;
+    font-family : "Times New Roman" ;
+    font-size : 19pt ;
+}
+
+.column{float:left;
+        width: 50%;
+        padding:5px;
+}
+
+.row::after{
+        content:"";
+        clear:both;
+        display: table;
+}
+
+*{
+    box-sizing:border-box;
+}
